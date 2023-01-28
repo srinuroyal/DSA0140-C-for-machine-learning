@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class legs
+{
+	int n1,n2,n3;
+	public:
+		legs()
+		{
+			cout<<"enter the number of legs of cow:";
+			cin>>n1;
+			cout<<"enter the number of legs of chicken:";
+			cin>>n2;
+			cout<<"enter the number of legs of peg:";
+			cin>>n3;
+		}
+		void display()
+		{
+			cout<<"total no of legs of three animals is:"<<n1+n2+n3;
+		}
+};
+int main()
+{
+	legs l; 
+	l.display();
+	return 0;
+}
